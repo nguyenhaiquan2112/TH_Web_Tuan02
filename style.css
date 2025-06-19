@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(103, 173, 173);
+}
+
+h1 {
+    color: rgb(54, 95, 226);
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+    color: rgb(57, 46, 200);
+}
+
+#img_1 {
+    display: block;
+    margin: auto;
+    height: 220px;
+    border-radius: 50%;
+    width: 200px;
+}
+
+li:nth-child(odd) {
+    background-color: brown;
+}
+
+li:nth-child(even) {
+    background-color: rgb(138, 100, 203);
+}
+
+ul li:hover {
+    color: yellow;
+}
+
+table {
+    border: px solid black;
+}
+
+
+/* Phần 2 */
+
+#img_2 {
+    display: block;
+    margin: auto;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgba(15, 15, 15, 0.3);
+}
+
+figcaption {
+    text-align: center;
+    font-size: 150%;
+    font-style: oblique;
+    color: rgb(43, 52, 57);
+}
