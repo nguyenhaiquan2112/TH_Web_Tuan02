@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(103, 173, 173);
+    background-color: rgb(206, 223, 202);
 }
 
 h1 {
@@ -17,21 +17,25 @@ p {
 #img_1 {
     display: block;
     margin: auto;
-    height: 220px;
-    border-radius: 50%;
+    height: 300px;
+    border-radius: 8px;
     width: 200px;
 }
 
-li:nth-child(odd) {
-    background-color: brown;
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 15px;
+    background-color: rgb(26, 18, 239);
+    padding: 10px;
 }
 
-li:nth-child(even) {
-    background-color: rgb(138, 100, 203);
-}
-
-ul li:hover {
-    color: yellow;
+.grid-container>div {
+    background-color: azure;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
 }
 
 table {
